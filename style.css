@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban|Open+Sans');
+
+h1, h2, h3, h4 {
+  font-family: 'Esteban', serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu-text {
+  font-family: 'Esteban', serif;
+  font-size: 24px;
+}
+
+#top-menu, li {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #A0C55F;
+}
+
+body {
+  background-color: #F0F0D8;
+}
+
+.button {
+  background-color: #0D6759;
+  margin: 1em;
+}
+
+.button:hover {
+  background-color: #0B2E59;
+}
+
+.caption {
+  font-size: 10px;
+}
+
+img {
+  width: 800px;
+  height: 550px;
+}
+
+.welcome {
+  text-align: center;
+}
