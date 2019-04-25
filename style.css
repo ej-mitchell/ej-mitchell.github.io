@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Esteban|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+:root {
+  --primary: #b0bec5;
+  --secondary: #bf360c;
+
+  --primary-light: #e2f1f8;
+  --secondary-light: #f9683a;
+
+  --primary-dark: #808e95;
+  --secondary-dark: #870000;
+}
 
 h1, h2, h3, h4 {
-  font-family: 'Esteban', serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 p {
@@ -9,26 +22,29 @@ p {
 }
 
 .menu-text {
-  font-family: 'Esteban', serif;
-  font-size: 24px;
+  font-family: 'Cabin', sans-serif;
+  margin-top: 8px;
+  font-size: 28px;
 }
 
 #top-menu, li {
   font-family: 'Open Sans', sans-serif;
-  background-color: #A0C55F;
+  background-color: var(--primary);
+  padding: 5px;
 }
 
 body {
-  background-color: #F0F0D8;
+  background-color: var(--primary-light);
 }
 
 .button {
-  background-color: #0D6759;
+  background-color: var(--secondary);
   margin: 1em;
+  border-radius: 2px;
 }
 
 .button:hover {
-  background-color: #0B2E59;
+  background-color: var(--secondary-dark);
 }
 
 .caption {
@@ -40,8 +56,24 @@ img {
   height: 550px;
 }
 
+.summit {
+  padding-top: 10px;
+}
+
 a.link-text {
   color: black;
+}
+
+a.highlight-link {
+  color: var(--secondary-dark);
+}
+
+a.highlight-link:hover {
+  color: var(--secondary)
+}
+
+.highlights {
+  background-color: var(--primary-light);
 }
 
 object {
@@ -51,4 +83,8 @@ object {
 
 .welcome {
   text-align: center;
+}
+
+.page-content {
+  padding: 10px 10px 10px 20px;
 }
